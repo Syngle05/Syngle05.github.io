@@ -1,0 +1,35 @@
+.footer{
+    border-top: solid 1px rgba(0, 0, 0, 0.212);
+    
+    color: #222;
+    padding: 2.5em;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list li{
+    margin: 0 1em;
+}
+
+.list li:hover{
+    color: #ffbb33;
+}
+
+.list svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy{
+    margin-top: 1em;
+}
+
+.copy span{
+    font-weight: bold;
+    color: #ffbb33;
+}
